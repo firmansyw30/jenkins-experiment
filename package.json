@@ -1,0 +1,25 @@
+{
+  "name": "jenkins-experiment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "build": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.ap-southeast-3.amazonaws.com/v1/repos/jenkins-experiment"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
